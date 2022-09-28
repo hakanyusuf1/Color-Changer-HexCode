@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+button {
+  height: 30px;
+  width: 100px;
+  margin: auto;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+h1 {
+  letter-spacing: 5px;
+}
